@@ -29,3 +29,17 @@ print("Result:", result)
 result2 = 5+2**3*(4-1)
 print("Result2:", result2)
 
+#CHALLEGES
+
+area = 8*5
+print("Area:", area)
+
+area2 = 3.14 * 7**2
+print("Area:", area2)
+
+cost = 12.99*3+3.5*4
+print("Total cost:", cost)
+
+Variable = 67
+modulus2 = 67%2
+print("Remainder:", modulus2) #BECAUSE THE REMAINDER IS ONE IT SHOWS THAT THE ODD BECAUSE ANY EVEN NUMBER IS DIVISABLE BY TWO
