@@ -25,3 +25,24 @@ print("Step #4:",math.floor(step_4))
 step_5 = 944883115
 result = step_5 % 10
 print("Result:", result)
+
+
+import random
+
+# methods:
+print("Random Integer:", random.randint(1,7))
+print ("Random float between 0 and 1:", random.random())
+choices =["Beef","Pork","Chicken"]
+print(random.choice(choices))
+random.shuffle(choices)
+print(choices)
+
+radius = 7
+circle_area = 7**2*3.14
+print("Area:", circle_area)
+
+die_roll = random.randint(1,6)
+print("Die roll:", die_roll)
+
+
+print(random.randbytes(100))
