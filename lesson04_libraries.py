@@ -23,4 +23,5 @@ print("Step #3:", step_3)
 step_4 = 944883115.2875878
 print("Step #4:",math.floor(step_4))
 step_5 = 944883115
-result = step_5
+result = step_5 % 10
+print("Result:", result)
