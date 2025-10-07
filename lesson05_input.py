@@ -26,7 +26,7 @@ import math
 
 diameter = (int(input("Enter a diameter for a circle:")))
 radius = diameter/2
-print("Area:",step1**2*math.pi )
+print("Area:",radius**2*math.pi )
 
 #CHALLENGE 4
 import random
