@@ -55,3 +55,21 @@ print(f"Hello, my name is {name}. I am {age} years old. and live in {city}")
 # f-strings can do math and function calls inside {}
 
 print(f"Next year, I'll be {age + 1}. My name in uppercase is {name.upper()}.")
+#CHALLEGES
+
+print()
+quote = input("Enter your favorite quote: ")
+print(len(quote))
+
+#Challege 2
+
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+print(last_name + "," + first_name)
+
+#CHALLEGE 3
+
+word_1 = input("Enter a word: ")
+print(word_1.upper())
+print(word_1.lower())
+print(word_1[::-1])
