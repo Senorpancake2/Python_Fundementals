@@ -61,3 +61,30 @@ elif day == "Monday":
 else: 
     print("Not the weekend yet")
 
+
+#CHALLEGES
+print()
+
+number = int(input("Enter a number:"))
+number2 = number%2
+if number2 == 1:
+    print("Your number is odd")
+else: 
+    print("Your number is even")
+
+
+
+user_attempt = input("Enter Password to continue:")
+if user_attempt == "Password": 
+    print("Access Granted")
+else:
+    print("Access Denied")
+
+
+
+grade = int(input("Enter your grade %:"))
+if grade >= 90: print("You earned a A")
+elif grade >= 80: print("You earned a B")
+elif grade >= 70: print("You earned a C")
+elif grade >= 60: print("You earned a D")
+else: print ("You earned a F")
