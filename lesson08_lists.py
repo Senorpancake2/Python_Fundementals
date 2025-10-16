@@ -103,5 +103,5 @@ print(integer_list)
 shopping = []
 shopping.append("Chicken, Egg, Ham")
 shopping.insert(1,"Beef")
-shopping.remove("Ham")
+shopping.remove("Beef")
 print(shopping)
