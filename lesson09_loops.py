@@ -63,3 +63,12 @@ while count > 0:
 
     if count < 0:
         break
+
+#  :O 67
+import random
+number_of_fruits = int(input("Enter number of fruits: "))
+
+fruits = ["Banana","Apple","Mango","Strawberry","Blueberry"]
+
+for i in range(number_of_fruits):
+    print("you picked a ", random.choice(fruits))
