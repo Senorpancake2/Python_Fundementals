@@ -69,6 +69,121 @@ def double_sequencer(number,times):
 
     return sequence
 
-result = double_sequencer(1,10)
+result = double_sequencer(1,12)
 
 print(result)
+
+
+
+#CHALLENGE 1
+
+#PSEUDO-CODE
+
+# PROCEDURE add(a,b)
+# {
+# RETURN a+b
+# } 
+#
+# PROCDURE subtract(a,b)
+#{
+# RETURN a-b
+#}
+#
+# PROCDURE divide(a,b)
+#{
+# RETURN a/b
+#}
+#
+# PROCDURE multiply(a,b)
+#{
+# RETURN a*b
+#}
+
+def add(a,b):
+    return a+b
+
+def subtract(a,b):
+    return a-b
+
+def divide(a,b):
+    return a/b
+
+def multiply(a,b):
+    return a*b
+
+answer1 = add(1,2)
+answer2 = subtract(1,2)
+answer3 = divide(1,2)
+answer4 = multiply(1,2)
+
+print(answer1,answer2,answer3,answer4)
+
+
+#CHALLENGE 2
+
+#num_1 = (int(input(Enter first number))
+#num_2 = (int(input(Enter second number))
+#num_3 = (int(input(Enter third number))
+#
+#PROCEDURE average(num_1,num_2,num_3)
+#{
+# RETURN num_1 + num_2 + num_3 / 3
+#}
+
+num_1 = int(input("Enter first number: "))
+num_2 = int(input("Enter second number: "))
+num_3 = int(input("Enter third number: "))
+
+def average(num_1,num_2,num_3): 
+    return num_1 + num_2 + num_3 / 3
+
+
+answer = average(num_1,num_2,num_3)
+print(answer)
+
+
+#CHALLENGE 3
+
+
+#
+#num = int(INPUT("Enter a number: "))
+#
+#PROCEDURE is_even(num)
+#{
+#if num % 2 = 1
+#{ 
+# return "Odd"
+#}
+#ELSE
+#{
+#return "Even"
+#}
+#
+#
+#
+#}
+#
+
+
+
+num = int(input("Enter a number: "))
+
+def is_even(num):
+
+    if num % 2 == 1: 
+        return "Odd"
+    else:
+        return "Even"
+
+answer = is_even(num)
+print(answer)
+
+
+#CHALLENGE 4
+
+def analyze_word(a):
+    for i in a:
+        
+    
+
+word = analyze_word("hello")
