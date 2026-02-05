@@ -181,9 +181,26 @@ print(answer)
 
 #CHALLENGE 4
 
-def analyze_word(a):
-    for i in a:
+def analyze_word(word):
+    VowelCount = 0
+    consonantCount = 0
+    
+    char = word.lower()
+    
+    if type(word) != str:
+        print "error"
+
+    for i in word.lower:
+        #char = word[i]
+
+        if i in "aeiou":
+            VowelCount += 1
+        elif i.isalpha():
+            consonantCount += 1
         
+
+    return VowelCount,consonantCount
     
 
-word = analyze_word("hello")
+word = analyze_word("HELLO")
+
